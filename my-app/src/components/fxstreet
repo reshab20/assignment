@@ -1,0 +1,31 @@
+import React, {Component} from 'react';
+import {Card,CardTitle,CardText,CardActions,CardMenu,IconButton,Button,Grid,Cell} from 'react-mdl';
+import './yahoo.css'
+
+
+class FxStreet extends Component{
+	render() {
+		return(
+				<Grid>
+		<Cell col={12}>
+				<div className="project-card">
+				<Card shadow={0} style={{width: '450px', margin: 'auto'}}>
+    <CardTitle style={{color: '#fff', height: '150px', background: 'url( "https://editorial.azureedge.net/images/Markets/Bonds/Bond/united-states-treasury-ee-savings-bond-horizontal-close-up-16314912_Large.jpg") center / cover'}}>Forex Today: Currencies ignore Trump's comments on manipulation, Bitcoin and gold consolidate</CardTitle>
+    <CardText>
+        Here is what you need to know on Thursday, July 4th, European session: - US President Donald Trump says that China and Europe are currency manipulator
+    </CardText>
+    <CardActions border>
+        <Button href= "https://www.fxstreet.com/news/forex-today-currencies-ignore-trumps-comments-on-manipulation-bitcoin-and-gold-consolidate-201907040555" colored>Read Full Story</Button>
+    </CardActions>
+    <CardMenu style={{color: '#fff'}}>
+        <IconButton name="share" />
+    </CardMenu>
+</Card>
+</div>
+</Cell>
+</Grid>
+			);
+	}
+}
+
+export default FxStreet;
