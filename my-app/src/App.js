@@ -20,9 +20,8 @@ class App extends Component  {
     </Menu>
 </div>
 			<Textfield
-                    value=""
                     onChange={() => {}}
-                    label="Search2"
+                    label="Expandable Input"
                     expandable
                     expandableIcon="search"
                 />
